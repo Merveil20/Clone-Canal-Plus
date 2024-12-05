@@ -8,59 +8,93 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>MyCANAL</title>
 </head>
-<body class="relative" >
-    <header class="relative">
-        <div class=" w-full bg-black relative ">
-            <div class=" h-auto bg-scroll">
-                <nav class="flex justify-around pt-1 items-stretch h-10 z-10">
-                    <div class="w-24 justify-evenly self-center">
-                        <img src="./Images/logo/canalplus-logo-v2.svg" alt="logo_canal_plus">
-                    </div>
-                    <div class="mr-28 w-auto self-center">
-                        <ul class="flex space-x-6">
-                            <li><a href=""class="text-white">Nos Créations</a></li>
-                            <li><a href=""class="text-white">Cinéma</a></li>
-                            <li><a href=""class="text-white">Séries</a></li>
-                            <li><a href=""class="text-white">Sport</a></li>
-                            <li><a href=""class="text-white">Docs</a></li>
-                            <li><a href=""class="text-white">Divertissement</a></li>
-                            <li><a href=""class="text-white">Jeunesse</a></li>
-                            <li><a href=""class="text-white">Chaînes</a></li>
-                        </ul>
-                    </div>
-                    <div class="flex justify-between self-center ">        
-                        <svg class="size-6 mr-5" width="20px" height="20px" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fcfcfc" stroke="#fcfcfc"><g id="SVGRepo_bgCarrier" stroke-width="0">
-                        </g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>search_right [#ffffff]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-259.000000, -280.000000)" fill="#ffffff"> 
-                            <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M207.45515,134.343 L208.93985,135.757 L204.48575,140 L203,138.586 L207.45515,134.343 Z M215.6,134 C212.1266,134 209.3,131.308 209.3,128 C209.3,124.691 212.1266,122 215.6,122 C219.07445,122 221.9,124.691 221.9,128 C221.9,131.308 219.07445,134 215.6,134 L215.6,134 Z M215.6,120 C210.9611,120 207.2,123.582 207.2,128 C207.2,132.418 210.9611,136 215.6,136 C220.23995,136 224,132.418 224,128 C224,123.582 220.23995,120 215.6,120 L215.6,120 Z" id="search_right-[#ffffff]"> </path> </g> </g> </g> </g></svg>
-                            <button class="rounded-sm bg-red-500 text-white w-32 ">NOS OFFRES</button>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8 ml-4">
-                                <path fill-rule="evenodd"
-                                d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
-                                clip-rule="evenodd" fill="#fcfcfc" stroke="#fcfcfc" />
-                            </svg>
-                            
-                        </div>
-                    </nav>
-            </div>    
-                <video class="absolute h-fit" src="./Images/section_1/DEA_BOUCLE_ESSENTIEL_DECEMBRE_DESKTOP_GF.mp4"></video>
-            <div class="relative z-10 flex flex-col space-y-3 pl-16 top-72  text-white">
-                <div class="relative top-20">
-                    <h1 class="text-4xl">NE CONFIEZ PAS VOTRE IMAGINATION </h1>
-                    <h1 class="text-4xl"> A N'IMPORT QUI</h1>
-                </div>
-                <div class="relative top-20">
-                    <p>Regardez le meilleur des séries, des films et du sport en streaming et en illimité</p>
-                </div>
-                <div>
-                    <button class="bg-red-500 text-2xl relative top-20 rounded-sm">DECOUVRIR NOS OFFRES</button>
-                </div>
+
+<body>
+    <header>
+        <nav class="flex flex-row h-16 bg-black text-white justify-evenly items-center border rounded-none sticky">
+            <div>
+                <img class="w-32" src="./Images/logo/canalplus-logo-v2.svg" alt="Logo">
             </div>
-            <div></div>
-        </div>
+            <div>
+                <ul class="flex flex-row space-x-7">
+                    <li><a href="#">Nos Créations</a></li>
+                    <li><a href="#">Cinéma</a></li>
+                    <li><a href="#">Séries</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Divertissement</a></li>
+                    <li><a href="#">Jeunesse</a></li>
+                    <li><a href="#">Chaînes</a></li>
+                </ul>
+            </div>
+            <div class="flex flex-row space-x-3">
+                <svg class="w-6" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <title>search_right [#]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs> </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-259.000000, -280.000000)"
+                                fill="#fffff">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path
+                                        d="M207.45515,134.343 L208.93985,135.757 L204.48575,140 L203,138.586 L207.45515,134.343 Z M215.6,134 C212.1266,134 209.3,131.308 209.3,128 C209.3,124.691 212.1266,122 215.6,122 C219.07445,122 221.9,124.691 221.9,128 C221.9,131.308 219.07445,134 215.6,134 L215.6,134 Z M215.6,120 C210.9611,120 207.2,123.582 207.2,128 C207.2,132.418 210.9611,136 215.6,136 C220.23995,136 224,132.418 224,128 C224,123.582 220.23995,120 215.6,120 L215.6,120 Z"
+                                        id="search_right-[#]"> </path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <button class="bg-red-600 w-auto size-10 p-2">NOS OFFRES</button>
+                <svg class="w-10" viewBox="0 0 24 24" fill="#182850" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path opacity="0.5"
+                            d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+                            fill="#1C274C"></path>
+                        <path
+                            d="M16.807 19.0112C15.4398 19.9504 13.7841 20.5 12 20.5C10.2159 20.5 8.56023 19.9503 7.193 19.0111C6.58915 18.5963 6.33109 17.8062 6.68219 17.1632C7.41001 15.8302 8.90973 15 12 15C15.0903 15 16.59 15.8303 17.3178 17.1632C17.6689 17.8062 17.4108 18.5964 16.807 19.0112Z"
+                            fill="#1C274C"></path>
+                        <path
+                            d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3432 6 9.00004 7.34315 9.00004 9C9.00004 10.6569 10.3432 12 12 12Z"
+                            fill="#182850"></path>
+                    </g>
+                </svg>
+            </div>
+        </nav>
     </header>
-    <div class=" h-20 bg-slate-500">
-        <p>Hello</p>
-    </div>
+    <main>
+        <video class="h-auto size-auto object-fill" src="./Images/section_1/DEA_BOUCLE_ESSENTIEL_DECEMBRE_DESKTOP_GF.mp4"></video>
+        <div class="flex flex-col space-y-4 relative bottom-96  space-x-16">
+            <div>
+                <P class=" ml-16 text-4xl text-white">NE CONFIEZ PAS VOTRE IMAGINATION</P>
+                <p class=" ml-16 text-4xl text-white">A N'IMPORTE QUI</p>
+            </div>
+            <div>
+                <p class="text-white">Regardez le meilleur des séries, des films et du sport en streaming et en
+                    illimité.</p>
+            </div>
+            <div class="flex flex-row justify-between">
+                <button class="text-white bg-red-600 w-auto size-10 p-2">DECOUVRIR NOS OFFRES</button>
+                <p class="text-xs text-gray-400 relative right-36">En décembre sur CANAL+</p>
+            </div>
+        </div>
+        <div class="flex flex-row relative justify-center space-x-4 bg-zinc-900 items-center bottom-52 h-20 text-white">
+            <div>
+                <img class="size-12" src="./Images/section_2/RAT-PLUS-1.png" alt="Logo Rat+">
+            </div>
+            <div>
+                <p>Tu as moins de 26 ans ? En ce mmoment, profite de l'offre RAT+ à 19$99/mois</p>
+            </div>
+            <div>
+                <button class="bg-stone-700 p-2 rounded-md">DECOUVRIR</button>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
