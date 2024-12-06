@@ -67,9 +67,11 @@
             </div>
         </nav>
     </header>
-    <main>
-        <video class="h-auto size-auto object-fill" src="./Images/section_1/DEA_BOUCLE_ESSENTIEL_DECEMBRE_DESKTOP_GF.mp4"></video>
-        <div class="flex flex-col space-y-4 relative bottom-96  space-x-16">
+    <main class="relative h-auto">
+        <video class="h-auto size-auto relative" src="./Images/section_1/DEA_BOUCLE_ESSENTIEL_DECEMBRE_DESKTOP_GF.mp4"
+            style="width: 100vw; height: 81vh; object-fit: fill;">
+        </video>
+        <div class="flex flex-col space-y-4 absolute bottom-5 space-x-16 w-full">
             <div>
                 <P class=" ml-16 text-4xl text-white">NE CONFIEZ PAS VOTRE IMAGINATION</P>
                 <p class=" ml-16 text-4xl text-white">A N'IMPORTE QUI</p>
@@ -78,12 +80,23 @@
                 <p class="text-white">Regardez le meilleur des séries, des films et du sport en streaming et en
                     illimité.</p>
             </div>
-            <div class="flex flex-row justify-between">
+            <div class="flex flex-row justify-between p-6">
                 <button class="text-white bg-red-600 w-auto size-10 p-2">DECOUVRIR NOS OFFRES</button>
-                <p class="text-xs text-gray-400 relative right-36">En décembre sur CANAL+</p>
+                <div class="flex flex-row space-x-3 ">
+                    <p class="text-xs text-gray-400 ">En décembre sur CANAL+</p>
+                    <svg class="size-6" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M7 1H2V15H7V1Z" fill="#fff"></path>
+                            <path d="M14 1H9V15H14V1Z" fill="#fff"></path>
+                        </g>
+                    </svg>
+                </div>
+
             </div>
         </div>
-        <div class="flex flex-row relative justify-center space-x-4 bg-zinc-900 items-center bottom-52 h-20 text-white">
+        <div class="flex flex-row absolute justify-center space-x-4 bg-zinc-900 items-center h-20 text-white w-full">
             <div>
                 <img class="size-12" src="./Images/section_2/RAT-PLUS-1.png" alt="Logo Rat+">
             </div>
@@ -91,10 +104,31 @@
                 <p>Tu as moins de 26 ans ? En ce mmoment, profite de l'offre RAT+ à 19$99/mois</p>
             </div>
             <div>
-                <button class="bg-stone-700 p-2 rounded-md">DECOUVRIR</button>
+                <button class="bg-stone-700 p-2 rounded-md ">DECOUVRIR</button>
             </div>
         </div>
     </main>
+    <div class="bg-slate-950 ">
+        <div class="flex flex-row pt-36 pr-16 justify-evenly">
+            <div class="justify-start  pb-8" style="width: 70%;">
+                <img class="object-contain" src="./Images/section_3/e7143445-6f0d-491c-af4a-b5a097bb00eb.jpg"
+                    alt="Iris à la section 03" style="width: 100%; height: 100%;">
+            </div>
+            <div class="bg-stone-950 p-4 items-stretch" style="height:79vh; width: 19rem;">
+                <h3 class="text-xl italic font-bold text-red-600">CREATION DECALEE</h3>
+                <h3 class="text-xl italic font-bold text-red-600">CANAL+</h3>
+                <h2 class="text-3xl italic font-bold text-white">IRIS</h2>
+                <P class="text-white pt-2 text-left">Iris, une enseignante, est en désaccord sur tout,
+                    tout le temps et avec tout le monde. Dans ses conditions,
+                    comment rencontrer un homme qui la comprenne ?
+                </P>
+                <div class="relative">
+                    <button class="text-white absolute top-56 bg-black/80 rounded-md p-2">1ER EPISODE OFFERT</button>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
 </body>
 
 </html>
