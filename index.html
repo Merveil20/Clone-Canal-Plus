@@ -1,309 +1,641 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/output.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>MyCANAL</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="flex flex-row h-16 bg-black text-white justify-evenly items-center border rounded-none sticky">
-            <div>
-                <img class="w-32" src="./Images/logo/canalplus-logo-v2.svg" alt="Logo">
-            </div>
-            <div>
-                <ul class="flex flex-row space-x-7">
-                    <li><a href="#">Nos Créations</a></li>
-                    <li><a href="#">Cinéma</a></li>
-                    <li><a href="#">Séries</a></li>
-                    <li><a href="#">Sport</a></li>
-                    <li><a href="#">Docs</a></li>
-                    <li><a href="#">Divertissement</a></li>
-                    <li><a href="#">Jeunesse</a></li>
-                    <li><a href="#">Chaînes</a></li>
-                </ul>
-            </div>
-            <div class="flex flex-row space-x-3">
-                <svg class="w-6" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    <g id="SVGRepo_iconCarrier">
-                        <title>search_right [#]</title>
-                        <desc>Created with Sketch.</desc>
-                        <defs> </defs>
-                        <g id="Page-1" stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
-                            <g id="Dribbble-Light-Preview" transform="translate(-259.000000, -280.000000)"
-                                fill="#fffff">
-                                <g id="icons" transform="translate(56.000000, 160.000000)">
-                                    <path
-                                        d="M207.45515,134.343 L208.93985,135.757 L204.48575,140 L203,138.586 L207.45515,134.343 Z M215.6,134 C212.1266,134 209.3,131.308 209.3,128 C209.3,124.691 212.1266,122 215.6,122 C219.07445,122 221.9,124.691 221.9,128 C221.9,131.308 219.07445,134 215.6,134 L215.6,134 Z M215.6,120 C210.9611,120 207.2,123.582 207.2,128 C207.2,132.418 210.9611,136 215.6,136 C220.23995,136 224,132.418 224,128 C224,123.582 220.23995,120 215.6,120 L215.6,120 Z"
-                                        id="search_right-[#]"> </path>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </svg>
-                <button class="bg-red-600 w-auto size-10 p-2">NOS OFFRES</button>
-                <svg class="w-10" viewBox="0 0 24 24" fill="#182850" xmlns="http://www.w3.org/2000/svg">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    <g id="SVGRepo_iconCarrier">
-                        <path opacity="0.5"
-                            d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
-                            fill="#1C274C"></path>
-                        <path
-                            d="M16.807 19.0112C15.4398 19.9504 13.7841 20.5 12 20.5C10.2159 20.5 8.56023 19.9503 7.193 19.0111C6.58915 18.5963 6.33109 17.8062 6.68219 17.1632C7.41001 15.8302 8.90973 15 12 15C15.0903 15 16.59 15.8303 17.3178 17.1632C17.6689 17.8062 17.4108 18.5964 16.807 19.0112Z"
-                            fill="#1C274C"></path>
-                        <path
-                            d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3432 6 9.00004 7.34315 9.00004 9C9.00004 10.6569 10.3432 12 12 12Z"
-                            fill="#182850"></path>
-                    </g>
-                </svg>
-            </div>
-        </nav>
-    </header>
-    <main class="relative h-auto">
-        <video class="h-auto size-auto relative" src="./Images/section_1/DEA_BOUCLE_ESSENTIEL_DECEMBRE_DESKTOP_GF.mp4"
-            style="width: 100vw; height: 81vh; object-fit: fill;">
-        </video>
-        <div class="flex flex-col space-y-4 absolute bottom-5 space-x-16 w-full">
-            <div>
-                <P class=" ml-16 text-4xl text-white">NE CONFIEZ PAS VOTRE IMAGINATION</P>
-                <p class=" ml-16 text-4xl text-white">A N'IMPORTE QUI</p>
-            </div>
-            <div>
-                <p class="text-white">Regardez le meilleur des séries, des films et du sport en streaming et en
-                    illimité.</p>
-            </div>
-            <div class="flex flex-row justify-between p-6">
-                <button class="text-white bg-red-600 w-auto size-10 p-2">DECOUVRIR NOS OFFRES</button>
-                <div class="flex flex-row space-x-3 ">
-                    <p class="text-xs text-gray-400 ">En décembre sur CANAL+</p>
-                    <svg class="size-6" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier">
-                            <path d="M7 1H2V15H7V1Z" fill="#fff"></path>
-                            <path d="M14 1H9V15H14V1Z" fill="#fff"></path>
-                        </g>
-                    </svg>
-                </div>
-
-            </div>
-        </div>
-        <div class="flex flex-row absolute justify-center space-x-4 bg-zinc-900 items-center h-20 text-white w-full">
-            <div>
-                <img class="size-12" src="./Images/section_2/RAT-PLUS-1.png" alt="Logo Rat+">
-            </div>
-            <div>
-                <p>Tu as moins de 26 ans ? En ce mmoment, profite de l'offre RAT+ à 19$99/mois</p>
-            </div>
-            <div>
-                <button class="bg-stone-700 p-2 rounded-md ">DECOUVRIR</button>
-            </div>
-        </div>
-    </main>
-    <div class="bg-slate-950 ">
-        <div class="flex flex-row pt-32 pr-16 justify-evenly">
-            <div class="justify-start  pb-8" style="width: 70%;">
-                <img class="object-contain" src="./Images/section_3/e7143445-6f0d-491c-af4a-b5a097bb00eb.jpg"
-                    alt="Iris à la section 03" style="width: 100%; height: 100%;">
-            </div>
-            <div class="bg-stone-950 p-4 items-stretch" style="height:79vh; width: 19rem;">
-                <h3 class="text-xl italic font-bold text-red-600">CREATION DECALEE</h3>
-                <h3 class="text-xl italic font-bold text-red-600">CANAL+</h3>
-                <h2 class="text-3xl italic font-bold text-white">IRIS</h2>
-                <P class="text-white pt-2 text-left">Iris, une enseignante, est en désaccord sur tout,
-                    tout le temps et avec tout le monde. Dans ses conditions,
-                    comment rencontrer un homme qui la comprenne ?
-                </P>
-                <div class="relative">
-                    <button class="text-white absolute top-56 bg-black/80 rounded-md p-2">1ER EPISODE OFFERT</button>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row p-5 space-y-3">
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="bg-stone-950 relative  p-6" style="height: 60vh; width: 18rem;">
-                    <h3 class="text-xl italic font-bold text-red-600">CINEMA</h3>
-                    <h2 class="text-white font-bold">LE MEILLEUR DU CINEMA RECENT, C'EST ICI !</h2>
-                    <p class="text-white font-bold ">Tout le cinéma français et international diffusé juste après la sortie en salle. Bref, que du cinéma super frais.</p>
-                    <button class="text-white font-bold p-2 italic bg-zinc-700 absolute bottom-10">TOUT LE CINEMA CANAL+</button>
-                </div>
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_4/Blizt.webp" alt="films BLITZ">
-                    <img class="size-11 absolute bottom-0" src="./Images/small_image/Apple.webp" alt="Apple Tv">
-                </div>
-            </div>
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_4/myCANAL_16x9_Logotype_MEA_1920x1080-1-IsH_.webp" alt="films BLITZ">
-                    <img class="size-11 absolute bottom-0" src="./Images/small_image/Canal.webp" alt="Apple Tv">
-                </div>
-                <div class="relative" style="height: 60vh; width: 18rem;">
-                    <img  class="object-cover " src="./Images/section_4/myCANAL_Jaquette_MEA_600x800-1-rUgn.webp" alt="">
-                    <img class="size-11 absolute bottom-0" src="./Images/small_image/Paramount.webp" alt="Apple Tv">
-                </div>
-            </div>
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="relative" style="height: 60vh; width: 18rem;">
-                    <img  class="object-cover " src="./Images/section_4/Winter break.webp" alt="">
-                    <img class="size-11 absolute bottom-0" src="./Images/small_image/Max.webp" alt="Apple Tv">
-                </div>
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_4/myCANAL_16x9_Logotype_MEA_1920x1080-QGRq.webp" alt="films BLITZ">
-                    <img class="size-11 absolute bottom-0" src="./Images/small_image/Cine+Ocs.webp" alt="Apple Tv">
-                </div>
-            </div>
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_4/Bob.webp" alt="films BLITZ">
-                    <img class="size-11 absolute bottom-0" src="./Images/small_image/Cine+Ocs.webp" alt="Apple Tv">
-                </div>
-                <div class="relative" style="height: 60vh; width: 18rem;">
-                    <img  class="object-cover " src="./Images/section_4/Plus.webp" alt="">
-                    <img class="size-11 absolute bottom-0" src="./Images/small_image/Canal.webp" alt="Apple Tv">
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row p-5 space-y-3">
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="bg-stone-950 relative  p-6" style="height: 60vh; width: 18rem;">
-                    <h3 class="text-xl italic font-bold text-red-600">CINEMA</h3>
-                    <h2 class="text-white font-bold">LE MEILLEUR DU CINEMA RECENT, C'EST ICI !</h2>
-                    <p class="text-white font-bold ">Tout le cinéma français et international diffusé juste après la sortie en salle. Bref, que du cinéma super frais.</p>
-                    <button class="text-white font-bold p-2 italic bg-zinc-700 absolute bottom-10">TOUT LE CINEMA CANAL+</button>
-                </div>
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-3.jpg" alt="films BLITZ">
-                    <div class="flex flex-row">
-                        <h4 class="absolute italic bottom-3 left-12 text-white font-bold text-sm">MOTO GP</h4>
-                        <img class="size-11 absolute bottom-0" src="./Images/small_image/Canal.webp" alt="Apple Tv">
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-7.jpg" alt="films BLITZ">
-                    <div>
-                        <h4 class="absolute italic bottom-3 left-12 text-white font-bold text-sm">D1 FEMININE</h4>
-                        <img class="size-11 absolute bottom-0" src="./Images/small_image/TF1.webp" alt="Apple Tv">
-                    </div>
-                </div>
-                <div class="relative" style="height: 60vh; width: 18rem;">
-                    <img  class="object-cover " src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-2.jpg" alt="">
-                    <div>
-                        <h4 class="absolute italic bottom-3 left-12 text-white font-bold text-sm">TOP 14</h4>
-                        <img class="size-11 absolute bottom-0" src="./Images/small_image/TF1.webp" alt="Apple Tv">
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="relative" style="height: 60vh; width: 18rem;">
-                    <img  class="object-cover " src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-6-1.jpg" alt="">
-                    <div>
-                        <h4 class="absolute italic bottom-3 left-12 text-white font-bold text-sm">UEFA CHAMPIONS LEAGUE</h4>
-                        <img class="size-11 absolute bottom-0" src="./Images/small_image/Paramount.webp" alt="Apple Tv">
-                    </div>
-                </div>
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-4.jpg" alt="films BLITZ">
-                    <div>
-                        <h4 class="absolute italic bottom-3 left-12 text-white font-bold text-sm">PREMIER LEAGUE</h4>
-                        <img class="size-11 absolute bottom-0" src="./Images/small_image/Canal.webp" alt="Apple Tv">
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col space-y-3 p-3">
-                <div class="relative">
-                    <img style="width: 18rem;" class="object-fill " src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080.jpg" alt="films BLITZ">
-                    <div>
-                        <h4 class="absolute italic bottom-3 left-12 text-white font-bold text-sm">EUROPA LEAGUE</h4>
-                        <img class="size-11 absolute bottom-0" src="./Images/small_image/Max.webp" alt="Apple Tv">
-                    </div>
-                </div>
-                <div class="relative" style="height: 60vh; width: 18rem;">
-                    <img  class="object-cover " src="/Images/section_5/myCANAL_MEA_Jaquette_Fiche_Programme_1242x1656.jpg" alt="">
-                    <div>
-                        <h4 class="absolute italic bottom-3 left-12 text-white font-bold text-sm">FORMULE 1</h4>
-                        <img class="size-11 absolute bottom-0" src="./Images/small_image/Max.webp" alt="Apple Tv">
-                    </div>
-                </div>
-            </div>
+      <nav
+        class="flex flex-row h-auto p-4 bg-black text-white justify-evenly items-center border rounded-none sticky max-[768px]:flex-col">
+        <div>
+          <img
+            class="w-32"
+            src="./Images/logo/canalplus-logo-v2.svg"
+            alt="Logo"
+          />
         </div>
         <div>
-            <div class="px-8"> <!--PLUS QUE CANAL+ DANS CANAL-->
-                <div class="flex justify-between">
-                    <p class="text-4xl text-white font-bold italic">PLUS QUE CANAL+ DANS CANAL+</p>
-                    <button class="text-xl text-red-600">Voir plus</button>
-                </div>
-                <div class="px-8 text-white/80 pt-3">
-                    Les meilleurs services de streaming réunis dans nos offres
-                </div>
-                <div class="flex ">
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/320x240/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40212/canal-ouah/CHN43FN/CHN43FN_40212_20211018" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/bran/unsafe/320x240/filters:quality(80)/image/6124e93256cf8/uploads/media/logo_Netflix_transparent.png" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40008/canal-ouah/CHN43FN/CHN43FN_40008_20240703-ySKY" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40300/canal-ouah/CHN43FN/CHN43FN_40300_20240611-0jXq" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40207/canal-ouah/CHN43FN/CHN43FN_40207_20221013" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40239/canal-ouah/CHN43FN/CHN43FN_40239_20230814" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/68304632" srcset="">
-                    </div>
-                </div>
-            </div>
-            <div class="pt-10 px-8"> <!--PLUS QUE CANAL+ DANS CANAL-->
-                <div class="flex justify-between">
-                    <p class="text-4xl text-white font-bold italic">TOUTE LA TV SUR UNE SEULE APP</p>
-                    <button class="text-xl text-red-600">DECOUVRIR TV+</button>
-                </div>
-                <div class="px-8 text-white/80 pt-3">
-                    Inclus dans toutes nos offres à partir de 2€/mois
-                </div>
-                <div class="flex ">
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40087/canal-ouah/CHN43FN/CHN43FN_40087" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40200/canal-ouah/CHN43FN/CHN43FN_40197_20231026" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40052/canal-ouah/CHN43FN/CHN43FN_301_29082023" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/68304547" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40210/canal-ouah/CHN43FN/CHN43FN_40210_05142024-UWhF" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/68304419" srcset="">
-                    </div>
-                    <div class="w-44 h-32 bg-gray-900 content-center m-3 rounded-md px-2">
-                        <img class="justify-self-center " src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50224/canal-ouah/CHN43FN/CHN43FN_50224_20241010-sV34" srcset="">
-                    </div>
-                </div>
-            </div>
-           
+          <ul class="flex flex-row space-x-7 max-[768px]:flex-col max-[986px]:space-x-1">
+            <li><a href="#">Créations</a></li>
+            <li><a href="#">Cinéma</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Sport</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Divertissement</a></li>
+            <li><a href="#">Jeunesse</a></li>
+            <li><a href="#">Chaînes</a></li>
+          </ul>
         </div>
+        <div class="flex flex-row space-x-3">
+          <svg
+            class="w-6"
+            viewBox="0 -0.5 21 21"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            fill="#fff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <title>search_right [#]</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="#fff"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Dribbble-Light-Preview"
+                  transform="translate(-259.000000, -280.000000)"
+                  fill="#fffff"
+                >
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path
+                      d="M207.45515,134.343 L208.93985,135.757 L204.48575,140 L203,138.586 L207.45515,134.343 Z M215.6,134 C212.1266,134 209.3,131.308 209.3,128 C209.3,124.691 212.1266,122 215.6,122 C219.07445,122 221.9,124.691 221.9,128 C221.9,131.308 219.07445,134 215.6,134 L215.6,134 Z M215.6,120 C210.9611,120 207.2,123.582 207.2,128 C207.2,132.418 210.9611,136 215.6,136 C220.23995,136 224,132.418 224,128 C224,123.582 220.23995,120 215.6,120 L215.6,120 Z"
+                      id="search_right-[#]"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <button class="bg-red-600 w-auto size-10 p-2 min-[768px]:size-auto text-xs/4 ">NOS OFFRES</button>
+          <svg
+            class="w-10"
+            viewBox="0 0 24 24"
+            fill="#182850"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                opacity="0.5"
+                d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+                fill="#1C274C"
+              ></path>
+              <path
+                d="M16.807 19.0112C15.4398 19.9504 13.7841 20.5 12 20.5C10.2159 20.5 8.56023 19.9503 7.193 19.0111C6.58915 18.5963 6.33109 17.8062 6.68219 17.1632C7.41001 15.8302 8.90973 15 12 15C15.0903 15 16.59 15.8303 17.3178 17.1632C17.6689 17.8062 17.4108 18.5964 16.807 19.0112Z"
+                fill="#1C274C"
+              ></path>
+              <path
+                d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3432 6 9.00004 7.34315 9.00004 9C9.00004 10.6569 10.3432 12 12 12Z"
+                fill="#182850"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </nav>
+    </header>
+    <main class="relative h-auto ">
+      <video
+        class="h-auto size-auto relative"
+        src="./Images/section_1/DEA_BOUCLE_ESSENTIEL_DECEMBRE_DESKTOP_GF.mp4"
+        style="width: 100vw; height: 81vh; object-fit: fill"
+      ></video>
+      <div class="flex flex-col space-y-4 absolute bottom-5 space-x-16 w-full">
+        <div>
+          <p class="ml-16 text-4xl text-white max-[1024px]:text-xl">
+            NE CONFIEZ PAS VOTRE IMAGINATION
+          </p>
+          <p class="ml-16 text-4xl text-white max-[1024px]:text-xl">A N'IMPORTE QUI</p>
+        </div>
+        <div>
+          <p class="text-white max-[1024px]:justify-center">
+            Regardez le meilleur des séries, des films et du sport en streaming
+            et en illimité.
+          </p>
+        </div>
+        <div class="flex flex-row justify-between p-6 max-[1024px]:justify-between">
+          <button class="text-white bg-red-600 w-auto size-10 p-2">
+            DECOUVRIR NOS OFFRES
+          </button>
+          <div class="flex flex-row space-x-3">
+            <p class="text-xs text-gray-400">En décembre sur CANAL+</p>
+            <svg
+              class="size-6"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path d="M7 1H2V15H7V1Z" fill="#fff"></path>
+                <path d="M14 1H9V15H14V1Z" fill="#fff"></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-row absolute justify-center space-x-4 bg-zinc-900 items-center h-20 text-white w-full max-[750px]:flex-col max-[750px]:h-auto p-1"
+      >
+        <div>
+          <img
+            class="size-12"
+            src="./Images/section_2/RAT-PLUS-1.png"
+            alt="Logo Rat+"
+          />
+        </div>
+        <div>
+          <p>
+            Tu as moins de 26 ans ? En ce mmoment, profite de l'offre RAT+ à
+            19$99/mois
+          </p>
+        </div>
+        <div>
+          <button class="bg-stone-700 p-2 rounded-md">DECOUVRIR</button>
+        </div>
+      </div>
+    </main>
+    <div class="bg-slate-950">
+      <div class="flex flex-row pt-32 justify-evenly max-[1110px]:flex-col">
+        <div class="pb-2 max-[1110px]:w-full justify-center" >
+          <img
+            class="object-contain"
+            src="./Images/section_3/e7143445-6f0d-491c-af4a-b5a097bb00eb.jpg"
+            alt="Iris à la section 03"
+            
+          />
+        </div>
+        <div
+          class="bg-stone-950 space-y-4 w-72 p-4 items-stretch max-[1110px]:w-full">
+          <h3 class="text-xl italic font-bold text-red-600">
+            CREATION DECALEE
+          </h3>
+          <h3 class="text-xl italic font-bold text-red-600">CANAL+</h3>
+          <h2 class="text-3xl italic font-bold text-white">IRIS</h2>
+          <p class="text-white pt-2 text-left">
+            Iris, une enseignante, est en désaccord sur tout, tout le temps et
+            avec tout le monde. Dans ses conditions, comment rencontrer un homme
+            qui la comprenne ?
+          </p>
+          <button
+              class="text-white bg-black/80 rounded-md p-2">
+              1ER EPISODE OFFERT
+            </button>
+         
+        </div>
+      </div>
+      <div class="flex flex-row p-5 space-y-3 max-sm:flex-col flex-wrap">
+        <div class="flex flex-col space-y-3 p-3">
+          <div
+            class="bg-stone-950 relative p-6"
+            style="height: 60vh; width: 18rem"
+          >
+            <h3 class="text-xl italic font-bold text-red-600">CINEMA</h3>
+            <h2 class="text-white font-bold">
+              LE MEILLEUR DU CINEMA RECENT, C'EST ICI !
+            </h2>
+            <p class="text-white font-bold">
+              Tout le cinéma français et international diffusé juste après la
+              sortie en salle. Bref, que du cinéma super frais.
+            </p>
+            <button
+              class="text-white font-bold p-2 italic bg-zinc-700 absolute bottom-10"
+            >
+              TOUT LE CINEMA CANAL+
+            </button>
+          </div>
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_4/Blizt.webp"
+              alt="films BLITZ"
+            />
+            <img
+              class="size-11 absolute bottom-0"
+              src="./Images/small_image/Apple.webp"
+              alt="Apple Tv"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col space-y-3 p-3">
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_4/myCANAL_16x9_Logotype_MEA_1920x1080-1-IsH_.webp"
+              alt="films BLITZ"
+            />
+            <img
+              class="size-11 absolute bottom-0"
+              src="./Images/small_image/Canal.webp"
+              alt="Apple Tv"
+            />
+          </div>
+          <div class="relative" style="height: 60vh; width: 18rem">
+            <img
+              class="object-cover"
+              src="./Images/section_4/myCANAL_Jaquette_MEA_600x800-1-rUgn.webp"
+              alt=""
+            />
+            <img
+              class="size-11 absolute bottom-0"
+              src="./Images/small_image/Paramount.webp"
+              alt="Apple Tv"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col space-y-3 p-3">
+          <div class="relative" style="height: 60vh; width: 18rem">
+            <img
+              class="object-cover"
+              src="./Images/section_4/Winter break.webp"
+              alt=""
+            />
+            <img
+              class="size-11 absolute bottom-0"
+              src="./Images/small_image/Max.webp"
+              alt="Apple Tv"
+            />
+          </div>
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_4/myCANAL_16x9_Logotype_MEA_1920x1080-QGRq.webp"
+              alt="films BLITZ"
+            />
+            <img
+              class="size-11 absolute bottom-0"
+              src="./Images/small_image/Cine+Ocs.webp"
+              alt="Apple Tv"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col space-y-3 p-3">
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_4/Bob.webp"
+              alt="films BLITZ"
+            />
+            <img
+              class="size-11 absolute bottom-0"
+              src="./Images/small_image/Cine+Ocs.webp"
+              alt="Apple Tv"
+            />
+          </div>
+          <div class="relative" style="height: 60vh; width: 18rem">
+            <img
+              class="object-cover"
+              src="./Images/section_4/Plus.webp"
+              alt=""
+            />
+            <img
+              class="size-11 absolute bottom-0"
+              src="./Images/small_image/Canal.webp"
+              alt="Apple Tv"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row p-5 space-y-3 max-sm:flex-col flex-wrap">
+        <div class="flex flex-col space-y-3 p-3">
+          <div
+            class="bg-stone-950 relative p-6"
+            style="height: 60vh; width: 18rem"
+          >
+            <h3 class="text-xl italic font-bold text-red-600">CINEMA</h3>
+            <h2 class="text-white font-bold">
+              LE MEILLEUR DU CINEMA RECENT, C'EST ICI !
+            </h2>
+            <p class="text-white font-bold">
+              Tout le cinéma français et international diffusé juste après la
+              sortie en salle. Bref, que du cinéma super frais.
+            </p>
+            <button
+              class="text-white font-bold p-2 italic bg-zinc-700 absolute bottom-10"
+            >
+              TOUT LE CINEMA CANAL+
+            </button>
+          </div>
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-3.jpg"
+              alt="films BLITZ"
+            />
+            <div class="flex flex-row">
+              <h4
+                class="absolute italic bottom-3 left-12 text-white font-bold text-sm"
+              >
+                MOTO GP
+              </h4>
+              <img
+                class="size-11 absolute bottom-0"
+                src="./Images/small_image/Canal.webp"
+                alt="Apple Tv"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-3 p-3">
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-7.jpg"
+              alt="films BLITZ"
+            />
+            <div>
+              <h4
+                class="absolute italic bottom-3 left-12 text-white font-bold text-sm"
+              >
+                D1 FEMININE
+              </h4>
+              <img
+                class="size-11 absolute bottom-0"
+                src="./Images/small_image/TF1.webp"
+                alt="Apple Tv"
+              />
+            </div>
+          </div>
+          <div class="relative" style="height: 60vh; width: 18rem">
+            <img
+              class="object-cover"
+              src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-2.jpg"
+              alt=""
+            />
+            <div>
+              <h4
+                class="absolute italic bottom-3 left-12 text-white font-bold text-sm"
+              >
+                TOP 14
+              </h4>
+              <img
+                class="size-11 absolute bottom-0"
+                src="./Images/small_image/TF1.webp"
+                alt="Apple Tv"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-3 p-3">
+          <div class="relative" style="height: 60vh; width: 18rem">
+            <img
+              class="object-cover"
+              src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-6-1.jpg"
+              alt=""
+            />
+            <div>
+              <h4
+                class="absolute italic bottom-3 left-12 text-white font-bold text-sm"
+              >
+                UEFA CHAMPIONS LEAGUE
+              </h4>
+              <img
+                class="size-11 absolute bottom-0"
+                src="./Images/small_image/Paramount.webp"
+                alt="Apple Tv"
+              />
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080-4.jpg"
+              alt="films BLITZ"
+            />
+            <div>
+              <h4
+                class="absolute italic bottom-3 left-12 text-white font-bold text-sm"
+              >
+                PREMIER LEAGUE
+              </h4>
+              <img
+                class="size-11 absolute bottom-0"
+                src="./Images/small_image/Canal.webp"
+                alt="Apple Tv"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-3 p-3">
+          <div class="relative">
+            <img
+              style="width: 18rem"
+              class="object-fill"
+              src="./Images/section_5/myCANAL-ALD_MEA_Pivot_16x9_Fiche_Programme_1920x1080.jpg"
+              alt="films BLITZ"
+            />
+            <div>
+              <h4
+                class="absolute italic bottom-3 left-12 text-white font-bold text-sm"
+              >
+                EUROPA LEAGUE
+              </h4>
+              <img
+                class="size-11 absolute bottom-0"
+                src="./Images/small_image/Max.webp"
+                alt="Apple Tv"
+              />
+            </div>
+          </div>
+          <div class="relative" style="height: 60vh; width: 18rem">
+            <img
+              class="object-cover"
+              src="/Images/section_5/myCANAL_MEA_Jaquette_Fiche_Programme_1242x1656.jpg"
+              alt=""
+            />
+            <div>
+              <h4
+                class="absolute italic bottom-5 left-12 text-white font-bold text-sm"
+              >
+                FORMULE 1
+              </h4>
+              <img
+                class="size-11 absolute bottom-0"
+                src="./Images/small_image/Max.webp"
+                alt="Apple Tv"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="px-8 max-sm:flex-col flex-wrap">
+          <!--PLUS QUE CANAL+ DANS CANAL-->
+          <div class="flex justify-between">
+            <p class="text-4xl text-white font-bold italic">
+              PLUS QUE CANAL+ DANS CANAL+
+            </p>
+            <button class="text-xl text-red-600">Voir plus</button>
+          </div>
+          <div class="px-8 text-white/80 pt-3">
+            Les meilleurs services de streaming réunis dans nos offres
+          </div>
+          <div class="flex max-sm:flex-col flex-wrap">
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40212/canal-ouah/CHN43FN/CHN43FN_40212_20211018"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center size-"
+                src="https://thumb.canalplus.pro/bran/unsafe/160x120/filters:quality(80)/image/6124e93256cf8/uploads/media/logo_Netflix_transparent.png"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40008/canal-ouah/CHN43FN/CHN43FN_40008_20240703-ySKY"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40300/canal-ouah/CHN43FN/CHN43FN_40300_20240611-0jXq"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40207/canal-ouah/CHN43FN/CHN43FN_40207_20221013"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40239/canal-ouah/CHN43FN/CHN43FN_40239_20230814"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/68304632"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="pt-10 px-8 max-sm:flex-col">
+          <!--PLUS QUE CANAL+ DANS CANAL-->
+          <div class="flex justify-between">
+            <p class="text-4xl text-white font-bold italic">
+              TOUTE LA TV SUR UNE SEULE APP
+            </p>
+            <button class="text-xl text-red-600">DECOUVRIR TV+</button>
+          </div>
+          <div class="px-8 text-white/80 pt-3">
+            Inclus dans toutes nos offres à partir de 2€/mois
+          </div>
+          <div class="flex max-sm:flex-col flex-wrap">
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40087/canal-ouah/CHN43FN/CHN43FN_40087"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40200/canal-ouah/CHN43FN/CHN43FN_40197_20231026"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40052/canal-ouah/CHN43FN/CHN43FN_301_29082023"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/68304547"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/40210/canal-ouah/CHN43FN/CHN43FN_40210_05142024-UWhF"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/img-hapi.canalplus.pro:80/ServiceImage/ImageID/68304419"
+                srcset=""
+              />
+            </div>
+            <div
+              class="w-fit h-32 bg-gray-900 content-center m-3 rounded-md px-2"
+            >
+              <img
+                class="justify-self-center"
+                src="https://thumb.canalplus.pro/http/unsafe/160x120/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/channel/50224/canal-ouah/CHN43FN/CHN43FN_50224_20241010-sV34"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
